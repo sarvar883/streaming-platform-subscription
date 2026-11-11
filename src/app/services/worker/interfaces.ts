@@ -1,0 +1,1 @@
+export type WorkerFunction = (taskId: string) => Promise<void>;

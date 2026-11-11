@@ -1,0 +1,1 @@
+export * from '@infrastructure/conflicting-tasks-resolver/service/conflicting-tasks-resolver';

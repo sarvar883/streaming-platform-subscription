@@ -1,0 +1,1 @@
+export type Invalid<T> = Error & { __errorMessage: T };

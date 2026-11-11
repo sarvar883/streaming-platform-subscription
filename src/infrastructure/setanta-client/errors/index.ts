@@ -1,0 +1,1 @@
+export * from '@infrastructure/setanta-client/errors/certificate-files-not-found';

@@ -1,0 +1,16 @@
+{
+    "name": "setanta-subscription-replicator",
+    "script": "./build/app/services/replicator/main.js",
+    "max_memory_restart": "1500M",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "log_file": "/server/.logs/setanta-subscription-replicator.log",
+    "out_file": "/server/.logs/setanta-subscription-replicator_out.log",
+    "error_file": "/server/.logs/setanta-subscription-replicator_error.log",
+    "combine_logs": true,
+    "pid_file": "/server/.logs/setanta-subscription-replicator.pid",
+    "interpreter": "node@22.23.4",
+    "autorestart": true,
+    "env": {
+        "NODE_ENV": "production"
+    }
+}
